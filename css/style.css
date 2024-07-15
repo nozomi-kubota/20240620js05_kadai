@@ -1,0 +1,93 @@
+body {
+  line-height:1.5;
+  background:radial-gradient(#3769dd,#c5e5ee);
+  }
+.wrapper {
+  max-width: 800px;
+  margin: auto;
+  padding: 80px;
+}
+.search-condition-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.heading-title {
+  margin-bottom: 40px;
+  font-family:Georgia;
+  font-style:italic;
+  color:rgba(3, 0, 163, 0.932);
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+.result {
+  margin-bottom: 10px;
+  display: flex;
+  font-family:'Times New Roman',  serif;  
+}
+
+.result-img {
+  max-width: 120px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.input-search {
+  padding: 6px 8px;
+}
+
+.btn-search {
+  margin-left: 8px;
+  padding: 4px 14px;
+  border: none;
+  background-color:rgba(3, 0, 163, 0.932);
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.music {
+  display: flex;
+  margin-bottom: 16px;
+  position: relative;
+  max-width:150px;
+}
+.music img {
+  display: block;
+  width: 120px;
+  height: 120px;
+}
+.track-name {
+  margin-bottom: 12px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Georgia, serif;
+}
+.artist-name {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Georgia, serif;
+}
+.playing{
+  color:aquamarine;
+}
+.music {
+  position:relative;
+  display:inline-table;
+  margin: 15px;
+ }
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: none;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  cursor: pointer;
+}
